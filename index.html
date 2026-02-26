@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avik Paul | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');body{font-family:'Inter',sans-serif;}</style>
+</head>
+<body class="bg-zinc-950 text-zinc-100">
+    <nav class="fixed top-0 z-50 w-full bg-zinc-950/90 backdrop-blur border-b border-zinc-800">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-blue-600 rounded-2xl flex items-center justify-center font-bold text-xl">AP</div>
+                <span class="text-2xl font-semibold">Avik Paul</span>
+            </div>
+            <div class="hidden md:flex gap-8 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-400">About</a>
+                <a href="#skills" class="hover:text-blue-400">Skills</a>
+                <a href="#projects" class="hover:text-blue-400">Projects</a>
+                <a href="#achievements" class="hover:text-blue-400">Achievements</a>
+                <a href="#certifications" class="hover:text-blue-400">Certifications</a>
+                <a href="#contact" class="hover:text-blue-400">Contact</a>
+            </div>
+            <a href="https://linkedin.com/in/avik-paul-b20981271" target="_blank" class="px-6 py-3 bg-blue-600 hover:bg-blue-500 rounded-2xl text-sm font-semibold flex items-center gap-2">
+                <i data-lucide="linkedin" class="w-4 h-4"></i> LinkedIn
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="min-h-screen flex items-center pt-20 bg-gradient-to-br from-zinc-900 to-black">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <h1 class="text-7xl font-bold tracking-tighter">Avik Paul</h1>
+                <p class="text-3xl text-blue-400">Electronics &amp; Electrical Engineer</p>
+                <p class="text-xl text-zinc-400 max-w-md">Building intelligent systems with embedded tech, power electronics &amp; automation.</p>
+                <div class="flex gap-4">
+                    <a href="#projects" class="px-8 py-4 bg-blue-600 hover:bg-blue-500 rounded-2xl font-semibold flex items-center gap-3">View Projects <i data-lucide="arrow-right"></i></a>
+                    <a href="#contact" class="px-8 py-4 border border-zinc-700 hover:border-zinc-400 rounded-2xl font-semibold">Contact</a>
+                </div>
+            </div>
+            <div class="hidden md:block relative">
+                <img src="profile.jpg" alt="Avik Paul" class="w-96 h-96 mx-auto rounded-full object-cover border-4 border-blue-500 shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-24 border-t border-zinc-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-12 gap-16">
+                <div class="md:col-span-5">
+                    <h2 class="text-5xl font-bold mb-6">About Me</h2>
+                    <div class="text-lg text-zinc-400 space-y-6">
+                        <p>B.Tech EEE student at Lovely Professional University (CGPA 6.67). Hands-on experience with railway traction motors &amp; transformers from Indian Railways internship.</p>
+                        <p>Focused on power electronics, embedded systems and industrial automation.</p>
+                    </div>
+                </div>
+                <div class="md:col-span-7 space-y-8">
+                    <div class="bg-zinc-900 p-8 rounded-3xl">
+                        <div class="flex items-center gap-4 mb-6"><i data-lucide="graduation-cap" class="w-7 h-7 text-blue-400"></i><span class="font-semibold">Education</span></div>
+                        <p class="font-medium">B.Tech Electronics &amp; Electrical Engineering • 2023–Present</p>
+                        <p class="text-sm text-zinc-500">Lovely Professional University • CGPA 6.67</p>
+                    </div>
+                    <div class="bg-zinc-900 p-8 rounded-3xl">
+                        <div class="flex items-center gap-4 mb-6"><i data-lucide="briefcase" class="w-7 h-7 text-blue-400"></i><span class="font-semibold">Internship</span></div>
+                        <p class="font-medium">Kharagpur Railway Workshop, Indian Railways</p>
+                        <p class="text-sm text-zinc-500">Jun–Jul 2025</p>
+                        <ul class="mt-4 text-sm text-zinc-400 list-disc pl-5 space-y-1">
+                            <li>DC series traction motors for EMU trains</li>
+                            <li>Complete EMU transformer overhaul</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-24 bg-zinc-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-16">Skills</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div>
+                    <div class="flex items-center gap-3 mb-6"><i data-lucide="code" class="w-6 h-6 text-blue-400"></i><span class="font-semibold text-xl">Languages</span></div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-6 py-3 bg-zinc-800 rounded-3xl text-sm">C++</span>
+                        <span class="px-6 py-3 bg-zinc-800 rounded-3xl text-sm">Python</span>
+                        <span class="px-6 py-3 bg-zinc-800 rounded-3xl text-sm">C</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-3 mb-6"><i data-lucide="cpu" class="w-6 h-6 text-blue-400"></i><span class="font-semibold text-xl">Tools</span></div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-6 py-3 bg-zinc-800 rounded-3xl text-sm">MATLAB Simulink</span>
+                        <span class="px-6 py-3 bg-zinc-800 rounded-3xl text-sm">Keil uVision</span>
+                        <span class="px-6 py-3 bg-zinc-800 rounded-3xl text-sm">Proteus</span>
+                        <span class="px-6 py-3 bg-zinc-800 rounded-3xl text-sm">LogixPro</span>
+                        <span class="px-6 py-3 bg-zinc-800 rounded-3xl text-sm">AutoCAD</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-3 mb-6"><i data-lucide="users" class="w-6 h-6 text-blue-400"></i><span class="font-semibold text-xl">Soft Skills</span></div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-6 py-3 bg-zinc-800 rounded-3xl text-sm">Problem Solving</span>
+                        <span class="px-6 py-3 bg-zinc-800 rounded-3xl text-sm">Teamwork</span>
+                        <span class="px-6 py-3 bg-zinc-800 rounded-3xl text-sm">Project Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-5xl font-bold mb-16">Projects</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-zinc-900 rounded-3xl overflow-hidden">
+                    <div class="h-56 bg-zinc-800 flex items-center justify-center"><i data-lucide="zap" class="w-24 h-24 text-blue-400/30"></i></div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-2xl mb-2">Ultrasonic Distance Measurer</h3>
+                        <p class="text-sm text-zinc-400 mb-6">8051 MCU + HC-SR04 sensor, pulse-echo timing, 16×2 LCD. Simulated in Proteus &amp; Keil.</p>
+                        <div class="text-xs text-zinc-500">Embedded • Microcontroller</div>
+                    </div>
+                </div>
+                <div class="bg-zinc-900 rounded-3xl overflow-hidden">
+                    <div class="h-56 bg-zinc-800 flex items-center justify-center"><i data-lucide="sun" class="w-24 h-24 text-amber-400/30"></i></div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-2xl mb-2">Solar PV Power System</h3>
+                        <p class="text-sm text-zinc-400 mb-6">Grid-connected PV with MPPT (Perturb &amp; Observe) in MATLAB Simulink. Boost converter + inverter.</p>
+                        <div class="text-xs text-zinc-500">Power Electronics • Simulink</div>
+                    </div>
+                </div>
+                <div class="bg-zinc-900 rounded-3xl overflow-hidden">
+                    <div class="h-56 bg-zinc-800 flex items-center justify-center"><i data-lucide="package" class="w-24 h-24 text-blue-400/30"></i></div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-2xl mb-2">Automated Conveyor Sorter</h3>
+                        <p class="text-sm text-zinc-400 mb-6">Dual-mode PLC system with item classification &amp; reject handling in LogixPro.</p>
+                        <div class="text-xs text-zinc-500">PLC • Automation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="py-24 bg-zinc-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-5xl font-bold mb-16">Achievements</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-zinc-900 rounded-3xl p-8">
+                    <h3 class="font-semibold text-2xl mb-2">Matriculation</h3>
+                    <p class="text-sm text-zinc-400 mb-6">89.2% - Panchasayar Shiksha Niketan, Jan 2019 – Mar 2020</p>
+                </div>
+                <div class="bg-zinc-900 rounded-3xl p-8">
+                    <h3 class="font-semibold text-2xl mb-2">Intermediate</h3>
+                    <p class="text-sm text-zinc-400 mb-6">79.4% - Jodhpur Park Boys School, Mar 2021 – Apr 2022</p>
+                </div>
+                <div class="bg-zinc-900 rounded-3xl p-8">
+                    <h3 class="font-semibold text-2xl mb-2">B.Tech CGPA</h3>
+                    <p class="text-sm text-zinc-400 mb-6">6.67 - Lovely Professional University, Aug 2023 – Present</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-5xl font-bold mb-16">Certifications</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-zinc-900 rounded-3xl p-8">
+                    <h3 class="font-semibold text-2xl mb-2">Electric Vehicle Technology</h3>
+                    <p class="text-sm text-zinc-400 mb-4">Udemy</p>
+                    <p class="text-sm text-zinc-500">Completed: Oct 2023 (Assumed start: Sep 2023 – Oct 2023)</p>
+                </div>
+                <div class="bg-zinc-900 rounded-3xl p-8">
+                    <h3 class="font-semibold text-2xl mb-2">A Complete Course to Python</h3>
+                    <p class="text-sm text-zinc-400 mb-4">Scaler</p>
+                    <p class="text-sm text-zinc-500">Completed: Nov 2023 (Assumed start: Oct 2023 – Nov 2023)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24 bg-zinc-900">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-5xl font-bold mb-8">Get in Touch</h2>
+            <div class="max-w-md mx-auto space-y-8">
+                <a href="mailto:avikp292000@gmail.com" class="block p-6 bg-zinc-800 hover:bg-zinc-700 rounded-3xl flex items-center gap-6 transition-colors">
+                    <i data-lucide="mail" class="w-8 h-8 text-blue-400"></i>
+                    <div class="text-left"><div class="font-medium">avikp292000@gmail.com</div><div class="text-xs text-zinc-500">Email</div></div>
+                </a>
+                <a href="tel:7439551901" class="block p-6 bg-zinc-800 hover:bg-zinc-700 rounded-3xl flex items-center gap-6 transition-colors">
+                    <i data-lucide="phone" class="w-8 h-8 text-blue-400"></i>
+                    <div class="text-left"><div class="font-medium">74395 51901</div><div class="text-xs text-zinc-500">Mobile</div></div>
+                </a>
+            </div>
+            <div class="flex justify-center gap-8 mt-16">
+                <a href="https://github.com/AvikTech" target="_blank"><i data-lucide="github" class="w-9 h-9 hover:text-blue-400"></i></a>
+                <a href="https://linkedin.com/in/avik-paul-b20981271" target="_blank"><i data-lucide="linkedin" class="w-9 h-9 hover:text-blue-400"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-zinc-500 text-sm border-t border-zinc-800">© 2026 Avik Paul</footer>
+
+    <script>
+        lucide.createIcons();
+        document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'});}})});
+    </script>
+</body>
+</html>
