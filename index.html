@@ -62,14 +62,14 @@
     /* Hero photo ring */
     .photo-ring{
       position:relative;
-      width:300px;height:300px;
+      width:400px;height:400px;
       flex-shrink:0;
     }
     .photo-ring .orbit{position:absolute;inset:0;border-radius:50%;border:1px solid rgba(59,130,246,.25);animation:spin 20s linear infinite}
     .photo-ring .orbit2{position:absolute;inset:12px;border-radius:50%;border:1px dashed rgba(59,130,246,.15);animation:spin 14s linear infinite reverse}
     @keyframes spin{to{transform:rotate(360deg)}}
     .photo-ring .photo-wrap{
-      position:absolute;inset:20px;border-radius:50%;
+      position:absolute;inset:10px;border-radius:50%;
       background:linear-gradient(135deg,#1e293b,#0f172a);
       border:3px solid rgba(59,130,246,.4);
       overflow:hidden;
@@ -577,13 +577,10 @@
         And remove the placeholder div.
       -->
       <div class="cert-img-wrap rounded-t-2xl" onclick="openLightbox(null)">
-        <div class="cert-img-placeholder">
-          <div class="w-16 h-16 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center mb-3">
-            <i data-lucide="database" class="w-8 h-8 text-electric-400 opacity-40"></i>
-          </div>
-          <p class="font-body text-xs text-slate-600">Add certificate image</p>
-          <p class="font-body text-xs text-slate-700 mt-0.5">nptel-dbms-cert.jpg</p>
-        </div>
+        <img src="Data Base Management System_compressed_page-0001 (1).jpg"
+     alt="NPTEL DBMS Certificate"
+     class="w-full h-full object-cover"
+     onclick="openLightbox(this.src)" />
         <span class="zoom-hint"><i data-lucide="zoom-in" class="w-3 h-3 inline mr-1"></i>View</span>
       </div>
       <div class="p-6">
@@ -624,13 +621,10 @@
         And remove the placeholder div.
       -->
       <div class="cert-img-wrap rounded-t-2xl" onclick="openLightbox(null)">
-        <div class="cert-img-placeholder">
-          <div class="w-16 h-16 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center mb-3">
-            <i data-lucide="settings-2" class="w-8 h-8 text-electric-400 opacity-40"></i>
-          </div>
-          <p class="font-body text-xs text-slate-600">Add certificate image</p>
-          <p class="font-body text-xs text-slate-700 mt-0.5">industrial-automation-cert.jpg</p>
-        </div>
+        <img src="plc certificate.jpg"
+     alt="Industrial Automation Certificate"
+     class="w-full h-full object-cover"
+     onclick="openLightbox(this.src)" />
         <span class="zoom-hint"><i data-lucide="zoom-in" class="w-3 h-3 inline mr-1"></i>View</span>
       </div>
       <div class="p-6">
@@ -663,13 +657,10 @@
     <!-- EV Technology -->
     <div class="cert-card bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden">
       <div class="cert-img-wrap rounded-t-2xl" onclick="openLightbox(null)">
-        <div class="cert-img-placeholder">
-          <div class="w-16 h-16 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center mb-3">
-            <i data-lucide="battery-charging" class="w-8 h-8 text-electric-400 opacity-40"></i>
-          </div>
-          <p class="font-body text-xs text-slate-600">Add certificate image</p>
-          <p class="font-body text-xs text-slate-700 mt-0.5">ev-technology-cert.jpg</p>
-        </div>
+        <img src="ev certificate.jpg"
+     alt="EV Technology Certificate"
+     class="w-full h-full object-cover"
+     onclick="openLightbox(this.src)" />
         <span class="zoom-hint"><i data-lucide="zoom-in" class="w-3 h-3 inline mr-1"></i>View</span>
       </div>
       <div class="p-6">
@@ -900,3 +891,4 @@
 </script>
 </body>
 </html>
+
